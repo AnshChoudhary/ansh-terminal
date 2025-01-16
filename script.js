@@ -28,6 +28,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 <span style="color:${themeColors.textColor};">themes</span>         - browse through available themes <br>
                 <span style="color:${themeColors.textColor};">welcome</span>        - view the introductory section <br>
                 <span style="color:${themeColors.textColor};">game</span>           - play a fun typing game that i developed <br>
+                <span style="color:${themeColors.textColor};">github</span>         - checkout my github profile <br>
+                <span style="color:${themeColors.textColor};">nutriscan</span>      - try nutriscan and track your food intake <br>
                 <span style="color:${themeColors.textColor};">whoami</span>         - find out who the current user is <br>
             `;
         },
