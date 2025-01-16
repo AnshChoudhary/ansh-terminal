@@ -89,11 +89,17 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         "exit": () => window.close(),
         "history": () => commandHistory.join("<br>"),
-        "projects": "You can visit my portfolio website / github to see all my projects <hr> These are my personal favorites: <br>1. Lane Detection Model for Autonomous Driving<br> <img src='/images/lanedetection.png' style='width:75%; height:auto;'><br>2. Football Tracking and xG Model <br><img src='/images/football-tracking.png' style='width:75%; height:auto;'><br>3. Lankmark Indexing with VLMs <br><img src='/images/landmarking.png' style='width:75%; height: auto;'>",
+        "projects": "You can visit my portfolio website / github to see all my projects. <hr> These are my personal favorites: <br>1. Lane Detection Model for Autonomous Driving <br> <img src='/images/lanedetection.png' style='width:75%; height:auto;'><br>2. Football Tracking and xG Model <br><img src='/images/football-tracking.png' style='width:75%; height:auto;'><br>3. Lankmark Indexing with VLMs <br><img src='/images/landmarking.png' style='width:75%; height: auto;'>",
         "pwd": "You are currently in the root directory.",
         "skills": () => {
             return `I am a fast learner and highly motivated individual. <hr> <span style="color:${themeColors.textColor};">Languages</span>: Python, C++, JavaScript, Svelte, React <br><span style="color:${themeColors.textColor};">Tools</span>: Docker, Kubernetes, Git, Framer, Webflow <br><span style="color:${themeColors.textColor};">ML/Data Science Libraries</span>: Tensorflow, Pytorch, Keras, Pandas, Scikit‐learn, OpenCV, Matplotlib, HuggingFace <br><span style="color:${themeColors.textColor};">Strengths</span>: DSA, Data Analysis, Frontend Development, Generative AI <br><span style="color:${themeColors.textColor};">Soft Skills</span>: Leadership, Team work, Communication, Time Management`},
-        "socials": "Connect with me on <br>1. LinkedIn: https://www.linkedin.com/in/ansh-choudhary19/,<br>2. GitHub: https://github.com/AnshChoudhary,<br>3. Twitter: https://x.com/ughhnsh",
+        "socials": () => {
+            return `Connect with me on <br>
+            1. LinkedIn: <a href="https://www.linkedin.com/in/ansh-choudhary19" target="_blank" style="color:${themeColors.textColor}; text-decoration: none;">https://www.linkedin.com/in/ansh-choudhary19</a>,<br>
+            2. GitHub: <a href="https://github.com/AnshChoudhary" target="_blank" style="color:${themeColors.textColor}; text-decoration: none;">https://github.com/AnshChoudhary</a>,<br>
+            3. Twitter: <a href="https://x.com/ughhnsh" target="_blank" style="color:${themeColors.textColor}; text-decoration: none;">https://x.com/ughhnsh</a>,<br>
+            4. Instagram: <a href="https://www.instagram.com/ughhnsh" target="_blank" style="color:${themeColors.textColor}; text-decoration: none;">https://www.instagram.com/ughhnsh</a>`;
+        },
         "welcome": "Hey There! I am Ansh Choudhary, Senior at BITS Pilani. <br> An aspiring computer science student with strong interest in coding and ML/AI. <br> Currently working as a Data Analyst at Sharaf DG in Dubai and conducting research at NYU Abu Dhabi.",
         "achievements": () => {
             return `I actively participate in diverse extracurricular activities and competitions. <hr> 
@@ -116,6 +122,7 @@ document.addEventListener("DOMContentLoaded", function() {
             window.open("https://calorie-tracker-app-mocha.vercel.app/", "_blank");
         },
         "whoami": "guest@user. But you should know who you are!",
+        "hello": "Hey There! I am Ansh Choudhary, Senior at BITS Pilani. <br> Learn more about me with commands like 'education' and 'projects', or play a typing game that I created by typing in 'game'.",
     };
 
     function processCommand(input) {
