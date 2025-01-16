@@ -79,6 +79,9 @@ document.addEventListener("DOMContentLoaded", function() {
         "education": () => {
             return `<span style="color:${themeColors.textColor};">BITS Pilani</span> | 2021 - 2025 <br><span style="color:${themeColors.textColor};">The Emerald Heights International School</span> | 2005 - 2020`
         },
+        "work": () => {
+            return `<span style="color:${themeColors.textColor};">AI Researcher at NYU Abu Dhabi</span> | Jun 2024 - Jan 2025 <br><span style="color:${themeColors.textColor};">Full Stack Developer at Dnyanda Sustainable Engineering Solutions</span> | Jun 2023 ‐ Sept 2023 <br><span style="color:${themeColors.textColor};">Computer Vision Intern at Dronamaps Inc.</span> | June 2022 ‐ Sept 2022 <br><span style="color:${themeColors.textColor};">Research Intern at Shiv Nadar University</span> | Jun 2019 - July 2019`
+        },
         "email": () => {
             window.open("mailto:anshc19@gmail.com");
             return 'You can reach me at: anshc19@gmail.com';
@@ -93,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "welcome": "Hey There! I am Ansh Choudhary, Senior at BITS Pilani. <br> An aspiring computer science student with strong interest in coding and ML/AI. <br> Currently working as a Data Analyst at Sharaf DG in Dubai and conducting research at NYU Abu Dhabi.",
         "game": () => {
             window.open("https://ansh-typing-game.vercel.app/", "_blank");
-            return 'Typing Game';
+            return 'Opening typing game...';
         },
         "github": () => {
             window.open("https://github.com/AnshChoudhary", "_blank");
