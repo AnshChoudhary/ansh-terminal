@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <span style="color:${themeColors.textColor};">TCS IT Wiz (2019)</span> - 1st Runner-up out of 1000 teams. <br>
             <span style="color:${themeColors.textColor};">Technothon (2019)</span> - Quiz Winner and Overall Champion. <br>
             <span style="color:${themeColors.textColor};">Round Square International Conference</span> - Won the Best Inventiveness Award for developing the C-Aware App to assist staff and patients at the Indore Cancer Foundation in self-diagnosing cancer symptoms. <br>
-            <span style="color:${themeColors.textColor};">Indian National Space Settlement Design Competition (2018)</span> - Collaborated with 54 students from 5 schools to design a space settlement on Earth’s moon; won the Runner-up trophy and advanced to the Asian Regional Space Settlement Design Competition. <br>
+            <span style="color:${themeColors.textColor};">Indian National Space Settlement Design Competition (2018)</span> - Collaborated with 54 students from 5 schools to design a space settlement on the moon; won the Runner-up trophy and advanced to the Asian Regional Space Settlement Design Competition. <br>
             <span style="color:${themeColors.textColor};">Award for Excellence in International Extra-curricular Activities</span> - Honored by Mrs. Pratibha Patil, Former President of India. <br>
             <span style="color:${themeColors.textColor};">Editor-in-Chief - EHIS Yearbook (2020)</span> - Led the editorial team for the school's first-ever yearbook, collecting 147 submissions, designing layouts, editing drafts, and writing about key events.`},
         "game": () => {
