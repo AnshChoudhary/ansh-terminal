@@ -94,6 +94,16 @@ document.addEventListener("DOMContentLoaded", function() {
             return `I am a fast learner and highly motivated individual. <hr> <span style="color:${themeColors.textColor};">Languages</span>: Python, C++, JavaScript, Svelte, React <br><span style="color:${themeColors.textColor};">Tools</span>: Docker, Kubernetes, Git, Framer, Webflow <br><span style="color:${themeColors.textColor};">ML/Data Science Libraries</span>: Tensorflow, Pytorch, Keras, Pandas, Scikit‐learn, OpenCV, Matplotlib, HuggingFace <br><span style="color:${themeColors.textColor};">Strengths</span>: DSA, Data Analysis, Frontend Development, Generative AI <br><span style="color:${themeColors.textColor};">Soft Skills</span>: Leadership, Team work, Communication, Time Management`},
         "socials": "Connect with me on <br>1. LinkedIn: https://www.linkedin.com/in/ansh-choudhary19/,<br>2. GitHub: https://github.com/AnshChoudhary,<br>3. Twitter: https://x.com/ughhnsh",
         "welcome": "Hey There! I am Ansh Choudhary, Senior at BITS Pilani. <br> An aspiring computer science student with strong interest in coding and ML/AI. <br> Currently working as a Data Analyst at Sharaf DG in Dubai and conducting research at NYU Abu Dhabi.",
+        "achievements": () => {
+            return `I actively participate in diverse extracurricular activities and competitions. <hr> 
+            <span style="color:${themeColors.textColor};">MaskEX University Trading Competition (2022)</span> - Secured 1st place in the UAE University Trading Competition organized by MaskEX Global, winning 1500 USDT in prize money. <br>
+            <span style="color:${themeColors.textColor};">IPSC National IT Fest (2019)</span> - Quiz Winner and Overall Champion out of 25 teams. <br>
+            <span style="color:${themeColors.textColor};">TCS IT Wiz (2019)</span> - 1st Runner-up out of 1000 teams. <br>
+            <span style="color:${themeColors.textColor};">Technothon (2019)</span> - Quiz Winner and Overall Champion. <br>
+            <span style="color:${themeColors.textColor};">Round Square International Conference</span> - Won the Best Inventiveness Award for developing the C-Aware App to assist staff and patients at the Indore Cancer Foundation in self-diagnosing cancer symptoms. <br>
+            <span style="color:${themeColors.textColor};">Indian National Space Settlement Design Competition (2018)</span> - Collaborated with 54 students from 5 schools to design a space settlement on Earth’s moon; won the Runner-up trophy and advanced to the Asian Regional Space Settlement Design Competition. <br>
+            <span style="color:${themeColors.textColor};">Award for Excellence in International Extra-curricular Activities</span> - Honored by Mrs. Pratibha Patil, Former President of India. <br>
+            <span style="color:${themeColors.textColor};">Editor-in-Chief - EHIS Yearbook (2020)</span> - Led the editorial team for the school's first-ever yearbook, collecting 147 submissions, designing layouts, editing drafts, and writing about key events.`},
         "game": () => {
             window.open("https://ansh-typing-game.vercel.app/", "_blank");
             return 'Opening typing game...';
