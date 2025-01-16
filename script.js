@@ -13,13 +13,17 @@ document.addEventListener("DOMContentLoaded", function() {
         "help": () => {
             return `
                 <span style="color:${themeColors.textColor};">about</span>          - learn more about me <br>
+                <span style="color:${themeColors.textColor};">achievements</span>   - list out my achievements <br>
                 <span style="color:${themeColors.textColor};">clear</span>          - clear the terminal display <br>
                 <span style="color:${themeColors.textColor};">echo</span>           - display custom text or messages <br>
                 <span style="color:${themeColors.textColor};">education</span>      - explore my academic journey <br>
                 <span style="color:${themeColors.textColor};">email</span>          - reach out via Email <br>
                 <span style="color:${themeColors.textColor};">exit</span>           - close the current session <br>
+                <span style="color:${themeColors.textColor};">game</span>           - play a fun typing game that i developed <br>
+                <span style="color:${themeColors.textColor};">github</span>         - checkout my github profile <br>
                 <span style="color:${themeColors.textColor};">help</span>           - get a list of available commands <br>
                 <span style="color:${themeColors.textColor};">history</span>        - see your command usage history <br>
+                <span style="color:${themeColors.textColor};">nutriscan</span>      - try nutriscan and track your food intake <br>
                 <span style="color:${themeColors.textColor};">portfolio</span>      - view my website <br>
                 <span style="color:${themeColors.textColor};">projects</span>       - check out my projects <br>
                 <span style="color:${themeColors.textColor};">pwd</span>            - show the current working directory <br>
@@ -27,9 +31,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 <span style="color:${themeColors.textColor};">socials</span>        - discover my social media profiles <br>
                 <span style="color:${themeColors.textColor};">themes</span>         - browse through available themes <br>
                 <span style="color:${themeColors.textColor};">welcome</span>        - view the introductory section <br>
-                <span style="color:${themeColors.textColor};">game</span>           - play a fun typing game that i developed <br>
-                <span style="color:${themeColors.textColor};">github</span>         - checkout my github profile <br>
-                <span style="color:${themeColors.textColor};">nutriscan</span>      - try nutriscan and track your food intake <br>
                 <span style="color:${themeColors.textColor};">whoami</span>         - find out who the current user is <br>
             `;
         },
