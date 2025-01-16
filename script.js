@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         "exit": () => window.close(),
         "history": () => commandHistory.join("<br>"),
-        "projects": "You can visit my portfolio website / github to see all my projects <hr> These are my personal favorites: <br>1. Lane Detection Model for Autonomous Driving<br> <img src='/images/lanedetection.png' style='width:75%; height:auto;'><br>2. Football Tracking and xG Model <br><img src='/images/football-tracking.png' style='width:75%; height:auto;'><br>3. NutriScan <br><img src='/images/mediwise.png' style='width:75%; height: auto;'>",
+        "projects": "You can visit my portfolio website / github to see all my projects <hr> These are my personal favorites: <br>1. Lane Detection Model for Autonomous Driving<br> <img src='/images/lanedetection.png' style='width:75%; height:auto;'><br>2. Football Tracking and xG Model <br><img src='/images/football-tracking.png' style='width:75%; height:auto;'><br>3. Lankmark Indexing with VLMs <br><img src='/images/landmarking.png' style='width:75%; height: auto;'>",
         "pwd": "You are currently in the root directory.",
         "skills": () => {
             return `I am a fast learner and highly motivated individual. <hr> <span style="color:${themeColors.textColor};">Languages</span>: Python, C++, JavaScript, Svelte, React <br><span style="color:${themeColors.textColor};">Tools</span>: Docker, Kubernetes, Git, Framer, Webflow <br><span style="color:${themeColors.textColor};">ML/Data Science Libraries</span>: Tensorflow, Pytorch, Keras, Pandas, Scikit‐learn, OpenCV, Matplotlib, HuggingFace <br><span style="color:${themeColors.textColor};">Strengths</span>: DSA, Data Analysis, Frontend Development, Generative AI <br><span style="color:${themeColors.textColor};">Soft Skills</span>: Leadership, Team work, Communication, Time Management`},
@@ -92,6 +92,12 @@ document.addEventListener("DOMContentLoaded", function() {
         "game": () => {
             window.open("https://ansh-typing-game.vercel.app/", "_blank");
             return 'Typing Game';
+        },
+        "github": () => {
+            window.open("https://github.com/AnshChoudhary", "_blank");
+        },
+        "nutriscan": () => {
+            window.open("https://calorie-tracker-app-mocha.vercel.app/", "_blank");
         },
         "whoami": "guest@user. But you should know who you are!",
     };
