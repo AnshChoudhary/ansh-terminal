@@ -121,6 +121,10 @@ document.addEventListener("DOMContentLoaded", function() {
         "nutriscan": () => {
             window.open("https://calorie-tracker-app-mocha.vercel.app/", "_blank");
         },
+        "goat": () => {
+            window.open("https://www.youtube.com/watch?v=IscGtF_A14A&t=2406s&ab_channel=MessiTheBoss", "_blank");
+            return 'Lionel Andrés "Leo" Messi';
+        },
         "whoami": "guest@user. But you should know who you are!",
         "hello": "Hey There! I am Ansh Choudhary, Senior at BITS Pilani. <br> Learn more about me with commands like 'education' and 'projects', or play a typing game that I created by typing in 'game'.",
     };
