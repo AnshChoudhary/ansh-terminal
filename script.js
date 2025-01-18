@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         "portfolio": () => {
             window.open("https://ansh-portfolio.web.app/", "_blank");
-            return '';
+            return 'Opening Portfolio...';
         }, 
         
         "clear": () => { terminalBody.innerHTML = ''; return ''; },
