@@ -70,29 +70,42 @@ document.addEventListener("DOMContentLoaded", function() {
             themeColors.textColor = '#ff0f9f';
             return "Switched to Sweet theme!";
         },
+
         "about": "Passionately creative developer with a knack for innovation.<br> AI researcher and data scientist who thrives on building impactful projects and exploring the cutting edge of technology. 🚀<br> Football analyst, hackathon enthusiast, and always eager to learn, grow, and make a difference.",
+        
         "portfolio": () => {
             window.open("https://ansh-portfolio.web.app/", "_blank");
             return '';
         }, 
+        
         "clear": () => { terminalBody.innerHTML = ''; return ''; },
+        
         "echo": (args) => args.join(" "),
+        
         "education": () => {
             return `<span style="color:${themeColors.textColor};">BITS Pilani</span> | 2021 - 2025 <br><span style="color:${themeColors.textColor};">The Emerald Heights International School</span> | 2005 - 2020`
         },
+        
         "work": () => {
             return `<span style="color:${themeColors.textColor};">AI Researcher at NYU Abu Dhabi</span> | Jun 2024 - Jan 2025 <br><span style="color:${themeColors.textColor};">Full Stack Developer at Dnyanda Sustainable Engineering Solutions</span> | Jun 2023 ‐ Sept 2023 <br><span style="color:${themeColors.textColor};">Computer Vision Intern at Dronamaps Inc.</span> | June 2022 ‐ Sept 2022 <br><span style="color:${themeColors.textColor};">Research Intern at Shiv Nadar University</span> | Jun 2019 - July 2019`
         },
+        
         "email": () => {
             window.open("mailto:anshc19@gmail.com");
             return 'You can reach me at: anshc19@gmail.com';
         },
+        
         "exit": () => window.close(),
+        
         "history": () => commandHistory.join("<br>"),
+        
         "projects": "You can visit my portfolio website / github to see all my projects. <hr> These are my personal favorites: <br>1. Lane Detection Model for Autonomous Driving <br> <img src='/images/lanedetection.png' style='width:75%; height:auto;'><br>2. Football Tracking and xG Model <br><img src='/images/football-tracking.png' style='width:75%; height:auto;'><br>3. Lankmark Indexing with VLMs <br><img src='/images/landmarking.png' style='width:75%; height: auto;'>",
+        
         "pwd": "You are currently in the root directory.",
+        
         "skills": () => {
             return `I am a fast learner and highly motivated individual. <hr> <span style="color:${themeColors.textColor};">Languages</span>: Python, C++, JavaScript, Svelte, React <br><span style="color:${themeColors.textColor};">Tools</span>: Docker, Kubernetes, Git, Framer, Webflow <br><span style="color:${themeColors.textColor};">ML/Data Science Libraries</span>: Tensorflow, Pytorch, Keras, Pandas, Scikit‐learn, OpenCV, Matplotlib, HuggingFace <br><span style="color:${themeColors.textColor};">Strengths</span>: DSA, Data Analysis, Frontend Development, Generative AI <br><span style="color:${themeColors.textColor};">Soft Skills</span>: Leadership, Team work, Communication, Time Management`},
+        
         "socials": () => {
             return `Connect with me on <br>
             1. LinkedIn: <a href="https://www.linkedin.com/in/ansh-choudhary19" target="_blank" style="color:${themeColors.textColor}; text-decoration: none;">https://www.linkedin.com/in/ansh-choudhary19</a>,<br>
@@ -100,7 +113,9 @@ document.addEventListener("DOMContentLoaded", function() {
             3. Twitter: <a href="https://x.com/ughhnsh" target="_blank" style="color:${themeColors.textColor}; text-decoration: none;">https://x.com/ughhnsh</a>,<br>
             4. Instagram: <a href="https://www.instagram.com/ughhnsh" target="_blank" style="color:${themeColors.textColor}; text-decoration: none;">https://www.instagram.com/ughhnsh</a>`;
         },
+        
         "welcome": "Hey There! I am Ansh Choudhary, Senior at BITS Pilani. <br> An aspiring computer science student with strong interest in coding and ML/AI. <br> Currently working as a Data Analyst at Sharaf DG in Dubai and conducting research at NYU Abu Dhabi.",
+        
         "achievements": () => {
             return `I actively participate in diverse extracurricular activities and competitions. <hr> 
             <span style="color:${themeColors.textColor};">MaskEX University Trading Competition (2022)</span> - Secured 1st place in the UAE University Trading Competition organized by MaskEX Global, winning 1500 USDT in prize money. <br>
@@ -111,21 +126,27 @@ document.addEventListener("DOMContentLoaded", function() {
             <span style="color:${themeColors.textColor};">Indian National Space Settlement Design Competition (2018)</span> - Collaborated with 54 students from 5 schools to design a space settlement on the moon; won the Runner-up trophy and advanced to the Asian Regional Space Settlement Design Competition. <br>
             <span style="color:${themeColors.textColor};">Award for Excellence in International Extra-curricular Activities</span> - Honored by Mrs. Pratibha Patil, Former President of India. <br>
             <span style="color:${themeColors.textColor};">Editor-in-Chief - EHIS Yearbook (2020)</span> - Led the editorial team for the school's first-ever yearbook, collecting 147 submissions, designing layouts, editing drafts, and writing about key events.`},
+        
         "game": () => {
             window.open("https://ansh-typing-game.vercel.app/", "_blank");
             return 'Opening typing game...';
         },
+        
         "github": () => {
             window.open("https://github.com/AnshChoudhary", "_blank");
         },
+        
         "nutriscan": () => {
             window.open("https://calorie-tracker-app-mocha.vercel.app/", "_blank");
         },
+        
         "goat": () => {
             window.open("https://www.youtube.com/watch?v=IscGtF_A14A&t=2406s&ab_channel=MessiTheBoss", "_blank");
             return 'Lionel Andrés "Leo" Messi';
         },
+        
         "whoami": "guest@user. But you should know who you are!",
+        
         "hello": "Hey There! I am Ansh Choudhary, Senior at BITS Pilani. <br> Learn more about me with commands like 'education' and 'projects', or play a typing game that I created by typing in 'game'.",
     };
 
