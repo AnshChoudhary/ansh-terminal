@@ -134,6 +134,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         "github": () => {
             window.open("https://github.com/AnshChoudhary", "_blank");
+            return 'Opening Ansh\'s Github...';
         },
         
         "nutriscan": () => {
