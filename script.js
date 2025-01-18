@@ -139,6 +139,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         "nutriscan": () => {
             window.open("https://calorie-tracker-app-mocha.vercel.app/", "_blank");
+            return 'Opening NutriScan...';
         },
         
         "goat": () => {
