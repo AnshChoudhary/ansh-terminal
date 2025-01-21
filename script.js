@@ -180,10 +180,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 "Ask again later.",
                 "It is certain.",
                 "Very doubtful.",
-                "Yes.",
-                "No.",
                 "Cannot predict now.",
-                "Outlook good.",
                 "My sources say no."
             ];
             const randomResponse = responses[Math.floor(Math.random() * responses.length)];
