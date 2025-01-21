@@ -172,6 +172,23 @@ document.addEventListener("DOMContentLoaded", function() {
             }
             return `You chose ${userChoice}, computer chose ${computerChoice}. ${result}`;
         },
+
+        "8ball": () => {
+            const responses = [
+                "Yes, definitely!",
+                "No, not at all.",
+                "Ask again later.",
+                "It is certain.",
+                "Very doubtful.",
+                "Yes.",
+                "No.",
+                "Cannot predict now.",
+                "Outlook good.",
+                "My sources say no."
+            ];
+            const randomResponse = responses[Math.floor(Math.random() * responses.length)];
+            return `8ball says: ${randomResponse}`;
+        },
     };
 
     function processCommand(input) {
