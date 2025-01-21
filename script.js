@@ -150,6 +150,28 @@ document.addEventListener("DOMContentLoaded", function() {
         "whoami": "guest@user. But you should know who you are!",
         
         "hello": "Hey There! I am Ansh Choudhary, Senior at BITS Pilani. <br> Learn more about me with commands like 'education' and 'projects', or play a typing game that I created by typing in 'game'.",
+
+        "rps": (args) => {
+            const choices = ["rock", "paper", "scissors"];
+            const userChoice = args[0];
+            if (!choices.includes(userChoice)) {
+                return "Invalid choice. Please choose rock, paper, or scissors.";
+            }
+            const computerChoice = choices[Math.floor(Math.random() * choices.length)];
+            let result;
+            if (userChoice === computerChoice) {
+                result = "It's a tie!";
+            } else if (
+                (userChoice === "rock" && computerChoice === "scissors") ||
+                (userChoice === "paper" && computerChoice === "rock") ||
+                (userChoice === "scissors" && computerChoice === "paper")
+            ) {
+                result = "You win!";
+            } else {
+                result = "You lose!";
+            }
+            return `You chose ${userChoice}, computer chose ${computerChoice}. ${result}`;
+        },
     };
 
     function processCommand(input) {
