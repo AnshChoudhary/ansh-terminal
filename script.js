@@ -226,6 +226,12 @@ document.addEventListener("DOMContentLoaded", function() {
                 return value;
             };
 
+            // Initial hands
+            const playerHand = [drawCard(), drawCard()];
+            const dealerHand = [drawCard(), drawCard()];
+
+            let playerValue = calculateHandValue(playerHand);
+            let dealerValue = calculateHandValue(dealerHand);
 
 
 
