@@ -186,6 +186,22 @@ document.addEventListener("DOMContentLoaded", function() {
             const randomResponse = responses[Math.floor(Math.random() * responses.length)];
             return `8ball says: ${randomResponse}`;
         },
+
+        "blackjack": () => {
+
+
+
+
+
+
+
+
+
+
+
+            // Determine winner
+
+        },
     };
 
     function processCommand(input) {
