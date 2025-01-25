@@ -199,7 +199,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             }
 
+            // Shuffle deck
+            deck.sort(() => Math.random() - 0.5);
 
+            // Draw a card
+            const drawCard = () => deck.pop();
 
 
 
