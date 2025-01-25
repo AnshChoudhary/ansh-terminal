@@ -205,7 +205,26 @@ document.addEventListener("DOMContentLoaded", function() {
             // Draw a card
             const drawCard = () => deck.pop();
 
-
+            // Calculate hand value
+            const calculateHandValue = (hand) => {
+                let value = 0;
+                let aces = 0;
+                for (let card of hand) {
+                    if (['J', 'Q', 'K'].includes(card.value)) {
+                        value += 10;
+                    } else if (card.value === 'A') {
+                        aces += 1;
+                        value += 11;
+                    } else {
+                        value += parseInt(card.value);
+                    }
+                }
+                while (value > 21 && aces) {
+                    value -= 10;
+                    aces -= 1;
+                }
+                return value;
+            };
 
 
 
