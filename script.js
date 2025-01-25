@@ -257,7 +257,13 @@ document.addEventListener("DOMContentLoaded", function() {
             }
 
             // Determine winner
-
+            if (dealerValue > 21 || playerValue > dealerValue) {
+                return `You win! Your hand: ${playerValue}, Dealer's hand: ${dealerValue}`;
+            } else if (playerValue < dealerValue) {
+                return `Dealer wins! Your hand: ${playerValue}, Dealer's hand: ${dealerValue}`;
+            } else {
+                return `It's a tie! Your hand: ${playerValue}, Dealer's hand: ${dealerValue}`;
+            }
         },
     };
 
