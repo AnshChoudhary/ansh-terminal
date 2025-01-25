@@ -233,7 +233,22 @@ document.addEventListener("DOMContentLoaded", function() {
             let playerValue = calculateHandValue(playerHand);
             let dealerValue = calculateHandValue(dealerHand);
 
-
+            // Player's turn
+            let playerTurn = true;
+            while (playerTurn) {
+                const playerAction = prompt(`Your hand: ${playerHand.map(card => `${card.value} of ${card.suit}`).join(', ')} (Value: ${playerValue})\nDo you want to "hit" or "stand"?`);
+                if (playerAction.toLowerCase() === 'hit') {
+                    playerHand.push(drawCard());
+                    playerValue = calculateHandValue(playerHand);
+                    if (playerValue > 21) {
+                        return `You busted with a hand value of ${playerValue}. Dealer wins!`;
+                    }
+                } else if (playerAction.toLowerCase() === 'stand') {
+                    playerTurn = false;
+                } else {
+                    return 'Invalid action. Please type "hit" or "stand".';
+                }
+            }
 
 
 
