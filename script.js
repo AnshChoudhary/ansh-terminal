@@ -250,7 +250,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             }
 
-
+            // Dealer's turn
+            while (dealerValue < 17) {
+                dealerHand.push(drawCard());
+                dealerValue = calculateHandValue(dealerHand);
+            }
 
             // Determine winner
 
