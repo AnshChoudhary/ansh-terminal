@@ -238,7 +238,7 @@ document.addEventListener("DOMContentLoaded", function() {
             // Player's turn
             let playerTurn = true;
             while (playerTurn) {
-                const playerAction = prompt(`Your hand: ${playerHand.map(card => `${card.value} of ${card.suit}`).join(', ')} (Value: ${playerValue})\nDo you want to "hit" or "stand"?`);
+                const playerAction = prompt(`Your hand: ${playerHand.map(card => `${card.value} of ${card.suit}`).join(', ')} (Value: ${playerValue})\nDo you want to "hit" (h) or "stand" (s)?`);
                 if (playerAction.toLowerCase() === 'hit') {
                     playerHand.push(drawCard());
                     playerValue = calculateHandValue(playerHand);
