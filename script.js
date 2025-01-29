@@ -79,6 +79,8 @@ document.addEventListener("DOMContentLoaded", function() {
         }, 
         
         "clear": () => { terminalBody.innerHTML = ''; return ''; },
+
+        "cls": () => { terminalBody.innerHTML = ''; return ''; },
         
         "echo": (args) => args.join(" "),
         
