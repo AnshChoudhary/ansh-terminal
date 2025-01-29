@@ -248,7 +248,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 } else if (playerAction.toLowerCase() === 'stand') {
                     playerTurn = false;
                 } else {
-                    return 'Invalid action. Please type "hit" or "stand".';
+                    return 'Invalid action. Please type "hit" (h) or "stand" (s).';
                 }
             }
 
