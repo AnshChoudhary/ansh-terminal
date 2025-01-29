@@ -239,7 +239,7 @@ document.addEventListener("DOMContentLoaded", function() {
             let playerTurn = true;
             while (playerTurn) {
                 const playerAction = prompt(`Your hand: ${playerHand.map(card => `${card.value} of ${card.suit}`).join(', ')} (Value: ${playerValue})\nDo you want to "hit" (h) or "stand" (s)?`);
-                if (playerAction.toLowerCase() === 'hit') {
+                if (playerAction.toLowerCase() === 'hit' || playerAction.toLowerCase() === 'h') {
                     playerHand.push(drawCard());
                     playerValue = calculateHandValue(playerHand);
                     if (playerValue > 21) {
