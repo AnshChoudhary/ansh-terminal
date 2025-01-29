@@ -245,7 +245,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     if (playerValue > 21) {
                         return `You busted with a hand value of ${playerValue}. Dealer wins!`;
                     }
-                } else if (playerAction.toLowerCase() === 'stand') {
+                } else if (playerAction.toLowerCase() === 'stand' || playerAction.toLowerCase() === 's') {
                     playerTurn = false;
                 } else {
                     return 'Invalid action. Please type "hit" (h) or "stand" (s).';
