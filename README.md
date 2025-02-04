@@ -22,8 +22,8 @@ To access the list of available commands, just enter `help` at the terminal prom
 
 - `about`: Learn more about me
 - `projects`: View my projects and contributions
-- `contact`: Get my contact information
-- `resume`: Access my resume
+- `socialst`: Get information about my social profiles 
+- `portfolio`: Access my portfolio website
 
 ## Commands 
 
