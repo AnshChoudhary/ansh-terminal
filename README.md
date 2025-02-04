@@ -1,5 +1,7 @@
 # [ansh-terminal website](https://ansh-terminal.vercel.app/)
 
+![Landing Page](https://github.com/AnshChoudhary/ansh-terminal/blob/main/images/main.png)
+
 Welcome to my terminal-based personal portfolio website! This project is designed to simulate a terminal interface where visitors can learn more about me and my work.
 
 ## Features
@@ -22,10 +24,6 @@ To access the list of available commands, just enter `help` at the terminal prom
 - `projects`: View my projects and contributions
 - `contact`: Get my contact information
 - `resume`: Access my resume
-
-## Landing Page
-
-![Landing Page](https://github.com/AnshChoudhary/ansh-terminal/blob/main/images/main.png)
 
 ## Commands 
 
