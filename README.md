@@ -22,7 +22,7 @@ To access the list of available commands, just enter `help` at the terminal prom
 
 - `about`: Learn more about me
 - `projects`: View my projects and contributions
-- `socialst`: Get information about my social profiles 
+- `socialst`: Get my social profiles 
 - `portfolio`: Access my portfolio website
 
 ## Commands 
