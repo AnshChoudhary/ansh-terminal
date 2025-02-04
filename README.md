@@ -10,7 +10,7 @@ Welcome to my terminal-based personal portfolio website! This project is designe
 
 ## About Me
 
-Hey There! I am Ansh Choudhary, Senior at BITS Pilani. I am an aspiring computer science student with a strong interest in coding and ML/AI. Currently, I am working as a Data Analyst at Sharaf DG in Dubai and conducting research at NYU Abu Dhabi.
+Hey There! I am Ansh Choudhary, Senior at BITS Pilani. I am an aspiring computer science student with a strong interest in coding and ML/AI. Currently, I am working as an AI Engineering Intern at Deriv in Dubai and conducting research at NYU Abu Dhabi.
 
 ## How to Use
 
