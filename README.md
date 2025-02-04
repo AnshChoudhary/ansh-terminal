@@ -30,4 +30,4 @@ To access the list of available commands, just enter `help` at the terminal prom
 ![Commands](https://github.com/AnshChoudhary/ansh-terminal/blob/main/images/help.png)
 
 ## Bonus
-- try commands like 'blackjack', 'rps', and 'goat' for some easter eggs!
+Try commands like 'blackjack', 'rps', and 'goat' for some easter eggs!
