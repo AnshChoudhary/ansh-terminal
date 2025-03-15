@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", function() {
             4. Instagram: <a href="https://www.instagram.com/ughhnsh" target="_blank" style="color:${themeColors.textColor}; text-decoration: none;">https://www.instagram.com/ughhnsh</a>`;
         },
         
-        "welcome": "Hey There! I am Ansh Choudhary, Senior at BITS Pilani. <br> An aspiring computer science student with strong interest in coding and ML/AI. <br> Currently working as an AI Engineer Intern at Deriv in Dubai and conducting research at NYU Abu Dhabi.",
+        "welcome": "Hey There! I am Ansh Choudhary, AI Engineer at Deriv. <br> An aspiring computer science student with strong interest in coding and ML/AI. <br> Currently working as an AI Engineer Intern at Deriv in Dubai and conducting research at NYU Abu Dhabi.",
         
         "achievements": () => {
             return `I actively participate in diverse extracurricular activities and competitions. <hr> 
