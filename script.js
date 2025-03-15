@@ -151,7 +151,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         "whoami": "guest@user. But you should know who you are!",
         
-        "hello": "Hey There! I am Ansh Choudhary, Senior at BITS Pilani. <br> Learn more about me with commands like 'education' and 'projects', or play a typing game that I created by typing in 'game'.",
+        "hello": "Hey There! I am Ansh Choudhary, AI Engineer at Deriv. <br> Learn more about me with commands like 'education' and 'projects', or play a typing game that I created by typing in 'game'.",
 
         "rps": (args) => {
             const choices = ["rock", "paper", "scissors"];
