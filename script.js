@@ -432,10 +432,12 @@ document.addEventListener("DOMContentLoaded", function() {
             border: 1px solid var(--border-color);
             border-radius: var(--radius-sm);
             padding: var(--spacing-sm);
-            margin-top: 2px;
+            margin-top: 1.5rem;
+            margin-left: 2rem;
             z-index: 1000;
             font-size: var(--font-size-sm);
             max-width: 300px;
+            box-shadow: 0 4px 6px var(--shadow-medium);
         `;
         
         suggestions.forEach(suggestion => {
