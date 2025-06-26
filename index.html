@@ -3,26 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ansh's Terminal</title>
-    <link rel="icon" href="/images/favicon.ico" type="images/favicon">
+    <meta name="description" content="Ansh Choudhary - AI Engineer at Deriv. Portfolio website with interactive terminal interface showcasing projects, skills, and experience in AI/ML.">
+    <meta name="keywords" content="Ansh Choudhary, AI Engineer, Portfolio, Terminal, Machine Learning, Deriv, NYU Abu Dhabi">
+    <meta name="author" content="Ansh Choudhary">
+    <meta name="theme-color" content="#0d1117">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Ansh Choudhary - AI Engineer Portfolio">
+    <meta property="og:description" content="Interactive terminal portfolio showcasing AI/ML projects and experience">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://anshchoudhary.github.io/ansh-terminal">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ansh Choudhary - AI Engineer Portfolio">
+    <meta name="twitter:description" content="Interactive terminal portfolio showcasing AI/ML projects and experience">
+    
+    <title>Ansh's Terminal - AI Engineer Portfolio</title>
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
     
+    <!-- Preload important fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
-    <div class="terminal">
-        <div class="terminal-header">
-            <span>C:\Users\ansh\terminal</span>
+    <div class="terminal" role="main" aria-label="Interactive terminal interface">
+        <div class="terminal-header" aria-label="Terminal header">
+            <span>ansh@desktop:~</span>
         </div>
-        <div class="terminal-body">
+        <div class="terminal-body" role="log" aria-live="polite" aria-label="Terminal output">
             <p>---</p>
-            <p>Hey There! I am Ansh Choudhary, AI Engineer at Deriv.</p>
-            <p>An aspiring computer science student with strong interest in coding and ML/AI.</p>
-            <p>Currently working as an AI Engineer at Deriv in Dubai and conducting research at NYU Abu Dhabi.</p>
+            <p>👋 Hey There! I am <strong>Ansh Choudhary</strong>, AI Engineer at Deriv.</p>
+            <p>🎓 An aspiring computer science student with strong interest in coding and ML/AI.</p>
+            <p>💼 Currently working as an AI Engineer at Deriv in Dubai and conducting research at NYU Abu Dhabi.</p>
             <p>---</p>
-            <p>To access the list of available commands, just enter "<span style="color:#00ff00;">help</span>".</p>
-            <p class="prompt"><span contenteditable="true" class="user-input"></span></p>
+            <p>💡 To access the list of available commands, just enter "<span style="color:var(--accent-green); font-weight: 600;">help</span>".</p>
+            <p class="prompt" role="textbox" aria-label="Command input">
+                <span contenteditable="true" class="user-input" aria-label="Type your command here" autocomplete="off" spellcheck="false"></span>
+            </p>
         </div>
     </div>
+    
+    <!-- Loading indicator (hidden by default) -->
+    <div id="loading-indicator" class="loading" style="display: none;" aria-hidden="true">
+        Processing...
+    </div>
+    
     <script src="script.js"></script>
+    
+    <!-- Add structured data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ansh Choudhary",
+        "jobTitle": "AI Engineer",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Deriv"
+        },
+        "alumniOf": {
+            "@type": "Organization",
+            "name": "BITS Pilani"
+        },
+        "url": "https://anshchoudhary.github.io/ansh-terminal",
+        "sameAs": [
+            "https://github.com/AnshChoudhary",
+            "https://www.linkedin.com/in/ansh-choudhary19",
+            "https://x.com/ughhnsh"
+        ]
+    }
+    </script>
 </body>
 </html>
